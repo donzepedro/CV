@@ -1,0 +1,9 @@
+@font-face {
+    font-family: matrix;
+    src: url(fonts_matrix_cyr.ttf);
+}
+.matrix{
+    color:green;
+    background: black;
+    font-family: matrix;
+}

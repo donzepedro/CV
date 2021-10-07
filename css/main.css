@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: matrix;
+    src: url(../fonts_matrix_cyr.ttf);
+}
+body{
+
+}
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+.container{
+    /* border:1px solid white; */
+    max-width: 800px;
+}
+.matrix_text{
+    
+    font-size: large;
+    color:#04ff00;
+    /* background: black; */
+    font-family: matrix;
+}
+.block_name{
+    min-width:220px;max-width:220px;
+}
+#maincontetn{
+    visibility:hidden; 
+    /* border: 1px solid pink; */
+}
+.personal_data{
+    /* border:1px solid hotpink; */
+    min-width: 500px;
+}
+.text_green{
+    color: #04ff00;
+}
+.photo{
+    background: url(background.gif)
+}
